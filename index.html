@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Dalkeith Guest House</title>
+</head>
+<body class="m-0 p-0">
+  <header class="bg-[#909578]">
+    <div class="flex flex-col md:flex-row w-full md:justify-between p-3">
+      <ul class="hidden md:flex w-1/2 md:justify-evenly text-center text-white/80">
+        <li><a href="tel:+441768772696">Tel: 017687 72696</a></li>
+        <li><a href="mailto:info@dalkeithguesthouse.co.uk">info@dalkeithguesthouse.co.uk</a></li>
+        <li><p>1 Leonard St, Keswick, Cumbria, CA12 4EJ</p></li>
+      </ul>
+      <ul class="flex flex-col md:flex-row md:w-1/2 justify-evenly">
+        <li><a href="/">Home</a></li>
+        <li><a href="/rooms">Rooms & Rates</a></li>
+        <li><a href="/breakfast.html">Breakfast</a></li>
+        <li><a href="/gallery.html">gallery</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>      
+    </div>
+    <div class="flex justify-center">
+      <a href="/">
+        <img src="https://dalkeithguesthouse.co.uk/wp-content/uploads/2016/07/Dalkeith-Guest-House-Logo-v7.png" alt="Dalkeith Guest House logo">
+      </a>
+    </div>
+  </header>
+  <main>
+    <div class="flex w-full justify-center pt-3 pb-5 relative">
+      <button id="left-btn" type="button" class="text-white text-8xl absolute left-28 top-1/2 -translate-y-1/2">«</button>
+      <img id="banner-img" class="w-11/12 rounded-3xl shadow-xl shadow-black/50"
+        src="https://dalkeithguesthouse.co.uk/wp-content/uploads/revslider/Derwent-Water-1100x400.jpg" alt="Derwent Water"
+      />
+      <button id="right-btn" type="button" class="text-white text-8xl absolute right-28 top-1/2 -translate-y-1/2">»</button>
+    </div>
+    <div class="flex w-full justify-center">
+      <div class="flex w-11/12 justify-around">
+        <a href="/rooms.html" class="bkg-img-rooms bg-cover w-[400px] h-[400px] flex justify-center items-center rounded-xl shadow-xl shadow-black/50 hover:grayscale hover:border-4">
+          <p class="font-semibold text-2xl text-white bg-black/30 rounded-xl h-7 p-2 pb-10 text-center">Rooms</p>
+        </a>
+        <a href="/breakfast.html" class="bkg-img-breakfast bg-cover w-[400px] h-[400px] flex justify-center items-center rounded-xl shadow-xl shadow-black/50 hover:grayscale hover:border-4">
+          <p class="font-semibold text-2xl text-white bg-black/30 rounded-xl h-7 p-2 pb-10 text-center">Breakfast</p>
+        </a>
+        <a href="/" class="bkg-img-outandabout bg-cover w-[400px] h-[400px] flex justify-center items-center rounded-xl shadow-xl shadow-black/50 hover:grayscale hover:border-4">
+          <p class="font-semibold text-2xl text-white bg-black/30 rounded-xl h-7 p-2 pb-10 text-center">Out and About</p>
+        </a>
+        <a href="/" class="bkg-img-gallery bg-cover w-[400px] h-[400px] flex justify-center items-center rounded-xl shadow-xl shadow-black/50 hover:grayscale hover:border-4">
+          <p class="font-semibold text-2xl text-white bg-black/30 rounded-xl h-7 p-2 pb-10 text-center">Gallery</p>
+        </a>
+      </div>
+    </div>
+    <div class="flex justify-center pt-8">
+      <div class="w-11/12 flex justify-between">
+        <h1 class="text-5xl">Welcome to Dalkeith Guest House, Keswick</h1>
+        <button class="bg-[#909578] p-3 rounded-lg hover:shadow-lg shadow-black hover:border-2 hover:border-black/40 hover:p-2">Check Availability & Book Now... ></button>
+      </div>
+    </div>
+    <div class="flex justify-center pt-8">
+      <div class="w-11/12 flex flex-col justify-between">
+        <p class="text-lg pt-4">
+          We welcome you to the family run Dalkeith Guest House – a beautiful stone-built Lakeland Bed & Breakfast Guest House set in the Cumbrian market town 
+          of Keswick in the heart of the Lake District National Park. The atmosphere here is of a small friendly country guest house, 
+          rather than a formal hotel. After all, Dalkeith is our home, and you are our guests!The house is ideally situated 
+          in a quiet location only five minutes walk into the town centre of Keswick, with views towards the Skiddaw Fells to 
+          the North.
+        </p>
+        <p class="text-lg pt-4">
+          It is an ideal base for exploring the Lakeland Fells – the Lake District is ideal for both serious walkers and strollers. 
+          Nearby are the lakes of Derwentwater and Bassenthwaite and the whole town is surrounded by magnificent mountains.
+        </p>
+        <p class="text-lg pt-4">
+          Mellow Borrowdale slate, traditional architecture built in 1878, just a few minutes walk from the River Greta & Fitz Park.
+        </p>
+        <p class="text-lg pt-4">
+          We hope you enjoy visiting our web site, and find the information you need about our friendly Keswick guest house accommodation and the 
+          local Keswick area. However, if you have any queries, please don’t hesitate to contact us.
+        </p>
+        <p class="text-lg pt-4">
+          A warm welcome awaits all our guests.
+        </p>
+      </div>
+    </div>
+    <div class="flex justify-center pt-9 text-center">
+      <div class="w-1/2 bg-[#909578] rounded-lg p-3">
+        <p class="text-xl">Reviews:</p>
+        <p class="text-2xl">"<span id="review-msg"></span>"</p>
+        <p class="text-xl">by: <span id="review-person"></span></p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="flex bg-[#909578] p-4 mt-6">
+      <div class="flex w-11/12 md:justify-around content-center">
+          <div class="my-auto">
+              <p class="address">1 Leonard Street, Keswick, Cumbria, CA12 4EJ</p>
+              <p class="phone">Phone: <a href="tel:017687 72696">017687 72696</a></p>
+              <p class="email">Email: <a href="mailto:info@dalkeithguesthouse.co.uk">info@dalkeithguesthouse.co.uk</a></p>
+          </div>
+          <div class="my-auto invisible md:visible">
+              <a href="https://www.facebook.com/dalkeithkeswick/">
+                  <img src="https://dalkeithgh.blob.core.windows.net/dalkeithguesthouse/FindUs-FB.png" />
+              </a>
+          </div>
+          <div class="invisible md:visible">
+              <iframe class="" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19031.401241574113!2d-3.1332157832535255!3d54.60043685063491!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a114be04dad8e34!2sDalkeith%20Guest%20House!5e0!3m2!1sen!2suk!4v1658398778227!5m2!1sen!2suk"></iframe>
+          </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script_index.js"></script>
+</body>
+</html>
